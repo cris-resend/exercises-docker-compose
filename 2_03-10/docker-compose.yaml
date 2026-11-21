@@ -1,0 +1,9 @@
+services:
+  backend:
+    image: crisresende/backend
+    ports:
+      - "8080:8080"
+  frontend:
+    image: crisresende/frontend
+    ports:
+      - "5001:5001"
